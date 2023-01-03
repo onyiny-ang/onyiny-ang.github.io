@@ -1,0 +1,39 @@
+# The URL the site will be built for
+title = "Lindsey Tulloch"
+description = "Master of Mathematics, Privacy and Security Researcher, Software Developer"
+base_url = "https://onyiny-ang.github.io/"
+
+compile_sass = true
+build_search_index = true
+generate_feed = true
+taxonomies = [
+    {name = "tags", feed = true},
+]
+
+[markdown]
+highlight_code = true
+highlight_theme = "OneHalfLight"
+
+
+[extra]
+first_name = "Lindsey"
+last_name = "Tulloch"
+degree = "Master of Mathematics"
+area = "Privacy and Security Researcher, Software Developer"
+favicon = "/favicon.ico"
+avatar = "/images/square.jpg"
+
+
+
+show_about = true
+show_skills = true
+show_projects = true
+show_opensource = true
+show_publications = true
+show_experience = true
+show_education = true
+show_blog = true
+
+[extra.show]
+tags = true
+links = true
