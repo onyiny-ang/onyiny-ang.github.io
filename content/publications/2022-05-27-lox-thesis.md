@@ -1,0 +1,21 @@
+---
+title: 'Lox: Protecting the Social Graph in Bridge Distribution (MMath Thesis)'
+date: 2022-05-26
+extra:
+    featured: true
+    authors: Lindsey Tulloch
+    link: https://www.uwspace.uwaterloo.ca/handle/10012/18333
+    bibtex: /media/lox.bib
+    pubtype: Thesis
+
+description: "Lox is a privacy preserving bridge distribution system that utilizes anonymous credentials to allow users to anonymously build reputations within the system and invite friends. This thesis describes and analyzes the Lox design and protocols and evaluates the load of the system relative to known usecases, such as the bridge user base."
+
+taxonomies:
+  tags:
+    - Privacy Enhancing Technologies
+    - Censorship Circumvention
+    - Bridge Distribution
+    - Anonymous Credentials
+    - Zero-Knowledge Proofs
+---
+Access to the open Internet, free from surveillance and censorship, is an important part of fulfilling the right to privacy. Despite this, in many regions of the world, censorship of the Internet is used to limit access to information, monitor the activity of Internet users and quash dissent. Where access to the Internet is heavily censored, anti-censorship proxies, or bridges, can offer a connection to journalists, dissidents and members of oppressed groups who seek access to the Internet beyond a censor's area of influence. Bridges are an anti-censorship tool that can provide users inside censored regions with a link to the open Internet. Using bridges as an anti-censorship tool is fraught with risks for users inside the censored region who may face persecution if they are discovered using or requesting bridges. 
