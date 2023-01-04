@@ -24,6 +24,11 @@
             </a>
           </div>
           {% endif %}
+          {% if page.extra.link %}
+          <div class="level-item">
+            <a href="{{ page.extra.link }}" style="font-style: initial;" ><span class="tag is-warning">Link</span></a>
+          </div>
+          {% endif %}
         </div>
         <div class="level-right">
           <div class="level-item">
@@ -32,6 +37,10 @@
         </div>
       </nav>
       <div class="is-flex is-flex-direction-row">
+       {% if page.extra.authors %}
+        <div class="content" style="width:100%">
+        <h3>{{ page.extra.authors }}</h3>
+        {% endif %}
         {% if page.description %}
         <div class="content" style="width: 100%;">
           {% if page.extra.image %}
