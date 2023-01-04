@@ -16,17 +16,17 @@
           <div class="level-item">
             <h3 class="post-title"><a href="{{ page.permalink }}">{{ page.title }}</a></h3>
           </div>
+          {% if page.extra.link %}
+          <div class="level-item">
+            <a href="{{ page.extra.link }}" style="font-style: initial;" ><span class="tag is-warning">Link</span></a>
+          </div>
+          {% endif %}
           {% if page.extra.bibtex %}
           <div class="level-item">
             <a role="button" data-target="copyTarget" aria-haspopup="true"
               onclick="show_bib('{{ get_url(path=page.extra.bibtex)}}')">
               <span class="tag is-warning">Bibtex</span>
             </a>
-          </div>
-          {% endif %}
-          {% if page.extra.link %}
-          <div class="level-item">
-            <a href="{{ page.extra.link }}" style="font-style: initial;" ><span class="tag is-warning">Link</span></a>
           </div>
           {% endif %}
         </div>
