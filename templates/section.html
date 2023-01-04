@@ -56,7 +56,6 @@
           <a href="{{ page.permalink }}">Read More</a>
         </div>
         {% endif %}
-      </div>
       {% if page.taxonomies.tags %}
       <div class="tags">
         {% for tag in page.taxonomies.tags %}
@@ -64,6 +63,7 @@
         {% endfor %}
       </div>
       {% endif %}
+      </div>
     </div>
     {% endfor %}
   </div>
