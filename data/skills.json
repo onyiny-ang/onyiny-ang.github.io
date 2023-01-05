@@ -1,11 +1,27 @@
 [
   {
+    "grouping": "Research",
+    "skills": [
+      {
+        "name": "Censorship Resistant Systems"
+      },
+      {
+        "name": "Privacy Enhancing Technologies"
+      },
+      {
+        "name": "Applied Zero-Knowledge Cryptography"
+      }
+    ]
+  },
+  {
     "grouping": "Languages, Operating Systems & Tools",
     "skills": [
-      "Cplusplus",
-      "Rust",
-      "Java",
       "Python",
+      "Go",
+      "Rust",
+      "C++",
+      "Java",
+      "Typescript",
       "git",
       "linux",
       "bash",
@@ -13,26 +29,19 @@
     ]
   },
   {
-    "grouping": "Platform Development & Administration",
-    "skills": [
-      "NGINX",
-      "MySQL",
-      {
-        "name": "Slurm",
-        "icon": "bash"
-      }
-    ]
-  },
-  {
-    "grouping": "Data Management",
+    "grouping": "DevOps & Container Administration",
     "skills": [
       {
-        "name": "MySQL/MariaDB",
-        "icon": "MySQL"
+        "name": "Docker",
+        "link": "https://docker.com"
       },
       {
-        "name": "Sqlite",
-        "icon": "bash"
+        "name": "Kubernetes",
+        "link": "https://kubernetes.io/",
+        "icon": "kubernetes"
+      },
+      {
+        "name": "CI/CD"
       }
     ]
   },
@@ -61,20 +70,6 @@
       },
       {
         "name": "RESTful APIs",
-        "icon": "bash"
-      }
-    ]
-  },
-  {
-    "grouping": "Containers & Cloud",
-    "skills": [
-      {
-        "name": "Docker",
-        "link": "https://docker.com"
-      },
-      {
-        "name": "Aliyun",
-        "link": "https://aliyun.com",
         "icon": "bash"
       }
     ]
