@@ -11,11 +11,11 @@
         {% if "name" in skill %}
         {% if "icon" in skill %}
         <span class="icon"><i class="devicon-{{  skill.icon | lower }}-plain"></i></span>{{ skill.name }}
-        {% elif skill.name is starting_with("C++") %}
-        <span class="icon"><i class="devicon-cpluscplus-plain"></i></span>{{ skill.name }}
         {% else %}
         <span class="icon"><i class="devicon-{{  skill.name | lower }}-plain"></i></span>{{ skill.name }}
         {% endif %}
+        {% elif skill is starting_with("C++") %}
+        <span class="icon"><i class="devicon-cplusplus-plain"></i></span>{{ skill }}
         {% else %}
         <span class="icon"><i class="devicon-{{  skill | lower }}-plain"></i></span>{{ skill }}
         {% endif %}

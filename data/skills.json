@@ -44,34 +44,5 @@
         "name": "CI/CD"
       }
     ]
-  },
-  {
-    "grouping": "Architecture",
-    "skills": [
-      {
-        "name": "IP Networking",
-        "icon": "bash"
-      },
-      {
-        "name": "DNS",
-        "icon": "bash"
-      },
-      {
-        "name": "Firewalls",
-        "icon": "bash"
-      },
-      {
-        "name": "Load Balancing",
-        "icon": "bash"
-      },
-      {
-        "name": "Microservices",
-        "icon": "bash"
-      },
-      {
-        "name": "RESTful APIs",
-        "icon": "bash"
-      }
-    ]
   }
 ]
