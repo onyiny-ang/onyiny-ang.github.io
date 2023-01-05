@@ -37,6 +37,11 @@
     {{ partial_section::display(title="publications",path="publications/_index.md", align="right", bibtex=true) }}
   </div>
   {% endif %}
+  {% if config.extra.show_talks %}
+  <div class="section hero is-fullheight page" id="talks">
+    {{ partial_section::display(title="talks",path="talks/_index.md", align="right") }}
+  </div>
+  {% endif %}
 
   {% if config.extra.show_experience %}
   <div class="section hero is-fullheight page" id="experience">

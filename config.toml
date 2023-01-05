@@ -21,16 +21,17 @@ last_name = "Tulloch"
 degree = "Master of Mathematics"
 area = "Privacy and Security Researcher, Software Developer"
 favicon = "/favicon.ico"
-avatar = "/images/square.jpg"
+avatar = "/media/square.jpg"
 
 
 
 show_about = true
 show_skills = true
-show_projects = true
+#show_projects = true
 show_opensource = true
 show_publications = true
-show_experience = true
+show_talks = true
+#show_experience = true
 show_education = true
 show_blog = true
 
