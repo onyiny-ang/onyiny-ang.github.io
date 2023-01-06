@@ -16,6 +16,9 @@
 {% if config.extra.show_publications    %}
 <li data-menuanchor="publications"><a href="{{ get_url(path='/#anchor_publications') }}">PUBLICATIONS</a></li>
 {% endif %}
+{% if config.extra.show_talks    %}
+<li data-menuanchor="talks"><a href="{{ get_url(path='/#anchor_talks') }}">TALKS</a></li>
+{% endif %}
 {% if config.extra.show_experience      %} 
 <li data-menuanchor="experience"><a href="{{ get_url(path='/#anchor_experience') }}">EXPERIENCE</a></li>
 {% endif %}
@@ -41,6 +44,7 @@
             {% if config.extra.show_projects        %} 'anchor_projects',      {% endif %}
             {% if config.extra.show_opensource      %} 'anchor_opensource',    {% endif %}
             {% if config.extra.show_publications    %} 'anchor_publications',  {% endif %}
+            {% if config.extra.show_talks           %} 'anchor_talks',         {% endif %}
             {% if config.extra.show_experience      %} 'anchor_experience',    {% endif %}
             {% if config.extra.show_education       %} 'anchor_education',     {% endif %}
             {% if config.extra.show_blog            %} 'anchor_blog',          {% endif %}

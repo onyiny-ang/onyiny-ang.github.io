@@ -5,12 +5,14 @@
 {% block content %}
 <div class="container is-fluid" style="min-height: 100vh;">
   <div class="is-flex is-flex-direction-column is-justify-content-center" style="min-height: 100vh;">
-      {% if page.extra.bibtex %}
+      {% if page.extra.bibtex and page.extra.link %}
     <h2>{{ page.title }}<a role="button" data-target="copyTarget" aria-haspopup="true" onclick="show_bib('{{ get_url(path=page.extra.bibtex)}}')">
                 <span class="tag is-warning">Bibtex</span></a>
 <a href="{{ page.extra.link }}" style="font-style: initial;" ><span class="tag is-warning">Link</span></a></h2>
-    {% else %}
+    {% elif page.extra.link  %}
     <h2>{{ page.title }}<a href="{{ page.extra.link }}" style="font-style: initial;" ><span class="tag is-warning">Link</span></a></h2>
+    {% else %}
+    <h2>{{ page.title }}</h2>
     {% endif %}
     {% if page.extra.authors %}
          <div class="content" style="width:100%">
