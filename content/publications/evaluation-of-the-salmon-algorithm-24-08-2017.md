@@ -2,11 +2,14 @@
 title: "Evaluation of the Salmon Algorithm"
 date: 2017-08-24T11:00:06.142Z
 extra:
-    featured: true
+    featured: false
     authors: John Orth, Sheridan Houghten, and Lindsey Tulloch 
     link: https://ieeexplore.ieee.org/document/8058568
     bibtex: /media/salmon.bib
-    pubtype: Proceedings
+    pubtype: Article
+    journal: 2017 IEEE Conference on Computational Intelligence in Bioinformatics and Computational Biology (CIBCB)
+    pages: 8
+    pubyear: August 2017 
 
 description: "In this paper we evaluated the performance of a metaheuristic
 algorithm (Salmon Algorithm) through the use of an automated parameter tuning

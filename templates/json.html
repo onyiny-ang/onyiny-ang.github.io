@@ -42,7 +42,7 @@
   {%- endfor -%}
 
   {% set section = get_section(path="publications/_index.md") %}
-  {%- for post in section.pages -%}
+  {%- for post in section.pages | reverse -%}
     {% if loop.first and start %},{% endif %}
     {% if not post.draft %}
       {

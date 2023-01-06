@@ -35,13 +35,23 @@
           </div>
         </div>
       </nav>
-      <div class="is-flex is-flex-direction-row">
       {% if page.extra.authors %}
+      <div class="is-flex is-flex-direction-row">
        <div class="content" style="width:100%">
        <h3>{{ page.extra.authors }}</h3>
        </div>
+       </div>
       {% endif %}
+      {% if page.extra.pubtype == 'Article' %}
+       <div class="content" style="width:100%">
+       <h4>{{ page.extra.journal }}, pp. {{ page.extra.pg }}, {{
+           page.extra.pubyear }}.</h4>
       </div>
+      {% elif page.extra.pubtype == 'Thesis' %}
+       <div class="content" style="width:100%">
+      <h4> Supervised by {{ page.extra.supervisor }}</h4>
+      </div>
+      {% endif %}
       <div class="is-flex is-flex-direction-row">
       {% if page.description %}
        <div class="content" style="width: 100%;">
