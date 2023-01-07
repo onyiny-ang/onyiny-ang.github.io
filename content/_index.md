@@ -9,7 +9,10 @@ I am a privacy and security researcher and software developer.
 
 My research focuses on privacy enhancing technologies and censorship circumvention systems.
 
-I previously worked with the [LEAP Encryption Access Project](https://leap.se/) on designing robust, UDP based pluggable transports for censorship circumvention. I wrote about some of the reasoning behind, and challenges involved in this effort in [LEAP's blog](https://leap.se/#blog). In the past I also worked with [Red Hat](https://www.redhat.com/en) on Kubernetes [Cluster Federation](https://github.com/kubernetes-sigs/kubefed) and the [Tekton vscode plugin](https://github.com/redhat-developer/vscode-tekton).
+I previously worked with the [LEAP Encryption Access Project](https://leap.se/) on designing robust, UDP based pluggable transports for censorship circumvention. I wrote about some of the reasoning behind, and challenges involved in this effort in [LEAP's blog](https://leap.se/#blog). 
+
+
+In the past I also worked with [Red Hat](https://www.redhat.com/en) on Kubernetes [Cluster Federation](https://github.com/kubernetes-sigs/kubefed) and the [Tekton vscode plugin](https://github.com/redhat-developer/vscode-tekton).
 
 I am a graduate of the [Cryptography Security and Privacy (CrySP)](https://crysp.uwaterloo.ca/) lab (MMath 2022) at the University of Waterloo in Ontario, Canada where I worked under [Ian Goldberg](https://cs.uwaterloo.ca/~iang/). 
 
