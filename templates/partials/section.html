@@ -7,7 +7,7 @@
   </div>
   {% set remain = false %}
   <div class="pb-6 pt-2" style="overflow: auto;">
-    {% for page in section.pages | reverse %}
+    {% for page in section.pages %}
     {% if page.extra.featured %}
     <div class="mb-5">
       <nav class="level mb-0">
@@ -61,7 +61,7 @@
     {% endfor %}
   </div>
   {% if remain %}
-  <h3><a href="{{ section.permalink }}">Wait! There's more..</a></h3>
+  <h3><a href="{{ section.permalink }}">Read more. . .</a></h3>
   {% endif %}
 </div>
 {% endmacro %}
