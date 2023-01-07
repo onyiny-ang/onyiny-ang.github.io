@@ -7,7 +7,7 @@
   </div>
   {% set remain = false %}
   <div class="pb-6 pt-2" style="overflow: auto;">
-    {% for page in section.pages | reverse %}
+    {% for page in section.pages %}
     {% if page.extra.featured %}
     <div class="mb-5">
       <nav class="level mb-0">

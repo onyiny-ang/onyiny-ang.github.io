@@ -1,6 +1,6 @@
 ---
-title: "Evaluation of the Salmon Algorithm"
 date: 2017-08-24T11:00:06.142Z
+title: "Evaluation of the Salmon Algorithm"
 extra:
     featured: false
     authors: John Orth, Sheridan Houghten, and Lindsey Tulloch 

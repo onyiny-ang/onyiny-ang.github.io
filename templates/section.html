@@ -9,7 +9,7 @@
       <h1>{{ section.title }}</h1>
       <div class="content">{{ section.content | safe }}</div>
     </div>
-    {% for page in section.pages | reverse %}
+    {% for page in section.pages %}
     <div class="mb-5">
       <nav class="level mb-0">
         <div class="level-left">
