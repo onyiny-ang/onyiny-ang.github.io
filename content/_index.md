@@ -16,9 +16,9 @@ In the past I also worked with [Red Hat](https://www.redhat.com/en) on Kubernete
 
 I am a graduate of the [Cryptography Security and Privacy (CrySP)](https://crysp.uwaterloo.ca/) lab (MMath 2022) at the University of Waterloo in Ontario, Canada where I worked under [Ian Goldberg](https://cs.uwaterloo.ca/~iang/). 
 
-My graduate work on [Lox](https://uwspace.uwaterloo.ca/handle/10012/18333), a privacy preserving bridge distribution system to support censorship circumvention efforts, is currently being incorporated into [Tor Browser](https://gitlab.torproject.org/cohosh/lox-server). 
+My graduate work on [Lox](https://uwspace.uwaterloo.ca/handle/10012/18333), a privacy preserving bridge distribution system to support censorship circumvention efforts, is currently being integrated into [Tor Browser](https://gitlab.torproject.org/tpo/anti-censorship/lox-rs). 
 
-A shorter version of my full thesis will be published in [PETS'23](https://petsymposium.org/2023/) with the Lox library [available here](https://git-crysp.uwaterloo.ca/iang/lox).
+A shorter version of my full thesis will be published in [PETS'23](https://petsymposium.org/popets/2023/popets-2023-0029.php) with the Lox library [available here](https://git-crysp.uwaterloo.ca/iang/lox).
 
 
 

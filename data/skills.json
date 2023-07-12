@@ -16,9 +16,9 @@
   {
     "grouping": "Languages, Operating Systems & Tools",
     "skills": [
-      "Python",
-      "Go",
       "Rust",
+      "Go",
+      "Python",
       "C++",
       "Java",
       "Typescript",
