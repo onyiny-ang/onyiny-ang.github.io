@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+  <title>Lindsey Tulloch</title>
+  
+<!-- CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/saira-extra-condensed@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/open-sans@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.13.0/devicon.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+<link rel="stylesheet" href="https://onyiny-ang.github.io/main.css">
+
+  
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+
+
+<script src="https://onyiny-ang.github.io/elasticlunr.min.js" defer></script>
+
+<script src="https://onyiny-ang.github.io/search_index.en.js" defer></script>
+
+
+
+
+  
+  
+<!-- RSS -->
+
+<link rel="alternate" type="application/atom+xml" title="RSS" href="https://onyiny-ang.github.io/atom.xml">
+
+
+  
+
+  
+  
+</head>
+
+<body>
+  <aside id="sidebar" class="menu is-hidden-touch">
+    
+
+<div style="display:block;margin:auto auto 0;padding:.5rem">
+    <figure class="image">
+        <img id="avatar" class="is-rounded" src="https://onyiny-ang.github.io/media/square.jpg">
+    </figure>
+</div>
+
+<div class="is-hidden-touch">
+      
+      
+      <a href="https:&#x2F;&#x2F;scholar.google.com&#x2F;citations?hl=en&amp;user=aCYCemoAAAAJ" style="font-size: 1rem;" data-toggle="tooltip" title="Google Scholar"
+        data-offset="0,10" rel="me">
+          <span class="fa-stack">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            
+
+            <i class="fas fa-graduation-cap fa-stack-1x fa-inverse"></i>
+            
+          </span>
+        </a>
+        
+      <a href="https:&#x2F;&#x2F;linkedin.com&#x2F;in&#x2F;lindsey-tulloch" style="font-size: 1rem;" data-toggle="tooltip" title="LinkedIn"
+        data-offset="0,10" rel="me">
+          <span class="fa-stack">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            
+
+            <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+            
+          </span>
+        </a>
+        
+      <a href="https:&#x2F;&#x2F;github.com&#x2F;onyiny-ang" style="font-size: 1rem;" data-toggle="tooltip" title="GitHub"
+        data-offset="0,10" rel="me">
+          <span class="fa-stack">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            
+
+            <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+            
+          </span>
+        </a>
+        
+      <a href="https:&#x2F;&#x2F;gitlab.torproject.org&#x2F;onyinyang" style="font-size: 1rem;" data-toggle="tooltip" title="Gitlab"
+        data-offset="0,10" rel="me">
+          <span class="fa-stack">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            
+
+            <i class="fab fa-gitlab fa-stack-1x fa-inverse"></i>
+            
+          </span>
+        </a>
+        
+      <a href="https:&#x2F;&#x2F;mastodon.social&#x2F;@algorithknit" style="font-size: 1rem;" data-toggle="tooltip" title="Mastodon"
+        data-offset="0,10" rel="me">
+          <span class="fa-stack">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            
+
+            <i class="fab fa-mastodon fa-stack-1x fa-inverse"></i>
+            
+          </span>
+        </a>
+        
+    </div>
+
+
+
+    
+<ul id="menu" class="menu-list">
+    
+
+<li data-menuanchor="about"><a href="https://onyiny-ang.github.io/#anchor_about">ABOUT</a></li>   
+
+ 
+<li data-menuanchor="skills"><a href="https://onyiny-ang.github.io/#anchor_skills">SKILLS</a></li>
+
+
+ 
+<li data-menuanchor="opensource"><a href="https://onyiny-ang.github.io/#anchor_opensource">OPEN SOURCE</a></li>
+
+
+<li data-menuanchor="publications"><a href="https://onyiny-ang.github.io/#anchor_publications">PUBLICATIONS</a></li>
+
+
+<li data-menuanchor="talks"><a href="https://onyiny-ang.github.io/#anchor_talks">TALKS</a></li>
+
+
+ 
+<li data-menuanchor="education"><a href="https://onyiny-ang.github.io/#anchor_education">EDUCATION</a></li>
+
+ 
+<li data-menuanchor="blog"><a href="https://onyiny-ang.github.io/#anchor_blog">BLOG</a></li>    
+
+</ul>
+
+  </aside>
+  
+<div class="modal" id="copyTarget">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+    <section class="modal-card-body">
+      <textarea class="textarea" id="bibtex-content" placeholder="e.g. Hello world"  readonly></textarea>
+    </section>
+    <footer class="modal-card-foot">
+      <button class="button" id="copyButton">Copy to clipboard</button>
+    </footer>
+  </div>
+</div>
+
+  <div id="content">
+    <!-- Content -->
+    
+<div class="container is-fluid" style="min-height: 100vh;">
+  <div class="is-flex is-flex-direction-column is-justify-content-center" style="min-height: 100vh;">
+    <div>
+      <h1>Publications</h1>
+      <div class="content"><p>A collection of my publications.</p>
+</div>
+    </div>
+    
+    <div class="mb-5">
+      <nav class="level mb-0">
+        <div class="level-left">
+          <div class="level-item">
+            <h3 class="post-title"><a href="https:&#x2F;&#x2F;onyiny-ang.github.io&#x2F;publications&#x2F;lox&#x2F;">Lox: Protecting the Social Graph in Bridge Distribution</a></h3>
+          </div>
+          
+          <div class="level-item">
+            <a href="https:&#x2F;&#x2F;cypherpunks.ca&#x2F;~iang&#x2F;pubs&#x2F;lox-popets23.pdf" style="font-style: initial;" ><span class="tag is-warning">Link</span></a>
+          </div>
+          
+          
+          <div class="level-item">
+            <a role="button" data-target="copyTarget" aria-haspopup="true"
+              onclick="show_bib('https://onyiny-ang.github.io/media/lox_pets.bib')">
+              <span class="tag is-warning">Bibtex</span>
+            </a>
+          </div>
+          
+        </div>
+        <div class="level-right">
+          <div class="level-item">
+            <span class="post-date">2023-07-11</span>
+          </div>
+        </div>
+      </nav>
+      <div class="is-flex is-flex-direction-row">
+       
+        <div class="content" style="width:100%">
+        <h3>Lindsey Tulloch &amp; Ian Goldberg</h3>
+        
+        
+        <div class="content" style="width: 100%;">
+          
+          <p>Lox is a privacy preserving bridge distribution system that utilizes anonymous credentials to allow users to anonymously build reputations within the system and invite friends. This thesis describes and analyzes the Lox design and protocols and evaluates the load of the system relative to known usecases, such as the bridge user base.</p>
+
+          <a href="https:&#x2F;&#x2F;onyiny-ang.github.io&#x2F;publications&#x2F;lox&#x2F;">Read More</a>
+        </div>
+        
+      
+      <div class="tags">
+        
+        <span class="tag"><a href="/tags/privacy enhancing technologies">Privacy Enhancing Technologies</a></span>
+        
+        <span class="tag"><a href="/tags/censorship resistance">Censorship Resistance</a></span>
+        
+        <span class="tag"><a href="/tags/bridge distribution">Bridge Distribution</a></span>
+        
+        <span class="tag"><a href="/tags/anonymous credentials">Anonymous Credentials</a></span>
+        
+      </div>
+      
+      </div>
+    </div>
+    
+    <div class="mb-5">
+      <nav class="level mb-0">
+        <div class="level-left">
+          <div class="level-item">
+            <h3 class="post-title"><a href="https:&#x2F;&#x2F;onyiny-ang.github.io&#x2F;publications&#x2F;dpml&#x2F;">Investigating Membership Inference Attacks under Data Dependencies</a></h3>
+          </div>
+          
+          <div class="level-item">
+            <a href="https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2010.12112" style="font-style: initial;" ><span class="tag is-warning">Link</span></a>
+          </div>
+          
+          
+          <div class="level-item">
+            <a role="button" data-target="copyTarget" aria-haspopup="true"
+              onclick="show_bib('https://onyiny-ang.github.io/media/dpml.bib')">
+              <span class="tag is-warning">Bibtex</span>
+            </a>
+          </div>
+          
+        </div>
+        <div class="level-right">
+          <div class="level-item">
+            <span class="post-date">2023-07-10</span>
+          </div>
+        </div>
+      </nav>
+      <div class="is-flex is-flex-direction-row">
+       
+        <div class="content" style="width:100%">
+        <h3>Thomas Humphries, Simon Oya, Lindsey Tulloch, Matthew Rafuse, Ian Goldberg, Urs Hengartner, Florian Kerschbaum</h3>
+        
+        
+        <div class="content" style="width: 100%;">
+          
+          <p>In this paper we evaluate membership inference with statistical dependencies among samples and explain why DP does not provide meaningful protection (the privacy parameter ε scales with the training set size n) in this more general case.</p>
+
+          <a href="https:&#x2F;&#x2F;onyiny-ang.github.io&#x2F;publications&#x2F;dpml&#x2F;">Read More</a>
+        </div>
+        
+      
+      <div class="tags">
+        
+        <span class="tag"><a href="/tags/differential privacy">Differential Privacy</a></span>
+        
+        <span class="tag"><a href="/tags/machine learning">Machine Learning</a></span>
+        
+        <span class="tag"><a href="/tags/membership inference attack">Membership Inference Attack</a></span>
+        
+      </div>
+      
+      </div>
+    </div>
+    
+    <div class="mb-5">
+      <nav class="level mb-0">
+        <div class="level-left">
+          <div class="level-item">
+            <h3 class="post-title"><a href="https:&#x2F;&#x2F;onyiny-ang.github.io&#x2F;publications&#x2F;thesis&#x2F;">Lox: Protecting the Social Graph in Bridge Distribution (MMath Thesis)</a></h3>
+          </div>
+          
+          <div class="level-item">
+            <a href="https:&#x2F;&#x2F;www.uwspace.uwaterloo.ca&#x2F;handle&#x2F;10012&#x2F;18333" style="font-style: initial;" ><span class="tag is-warning">Link</span></a>
+          </div>
+          
+          
+          <div class="level-item">
+            <a role="button" data-target="copyTarget" aria-haspopup="true"
+              onclick="show_bib('https://onyiny-ang.github.io/media/lox.bib')">
+              <span class="tag is-warning">Bibtex</span>
+            </a>
+          </div>
+          
+        </div>
+        <div class="level-right">
+          <div class="level-item">
+            <span class="post-date">2022-05-26</span>
+          </div>
+        </div>
+      </nav>
+      <div class="is-flex is-flex-direction-row">
+       
+        <div class="content" style="width:100%">
+        <h3>Lindsey Tulloch</h3>
+        
+        
+        <div class="content" style="width: 100%;">
+          
+          <p>Lox is a privacy preserving bridge distribution system that utilizes anonymous credentials to allow users to anonymously build reputations within the system and invite friends. This thesis describes and analyzes the Lox design and protocols and evaluates the load of the system relative to known usecases, such as the bridge user base.</p>
+
+          <a href="https:&#x2F;&#x2F;onyiny-ang.github.io&#x2F;publications&#x2F;thesis&#x2F;">Read More</a>
+        </div>
+        
+      
+      <div class="tags">
+        
+        <span class="tag"><a href="/tags/privacy enhancing technologies">Privacy Enhancing Technologies</a></span>
+        
+        <span class="tag"><a href="/tags/censorship circumvention">Censorship Circumvention</a></span>
+        
+        <span class="tag"><a href="/tags/bridge distribution">Bridge Distribution</a></span>
+        
+        <span class="tag"><a href="/tags/anonymous credentials">Anonymous Credentials</a></span>
+        
+        <span class="tag"><a href="/tags/zero-knowledge proofs">Zero-Knowledge Proofs</a></span>
+        
+      </div>
+      
+      </div>
+    </div>
+    
+    <div class="mb-5">
+      <nav class="level mb-0">
+        <div class="level-left">
+          <div class="level-item">
+            <h3 class="post-title"><a href="https:&#x2F;&#x2F;onyiny-ang.github.io&#x2F;publications&#x2F;oustral&#x2F;">OUStralopithecus: Overt User Simulation for Censorship Circumvention</a></h3>
+          </div>
+          
+          <div class="level-item">
+            <a href="https:&#x2F;&#x2F;cypherpunks.ca&#x2F;~iang&#x2F;pubs&#x2F;oustral-wpes21.pdf" style="font-style: initial;" ><span class="tag is-warning">Link</span></a>
+          </div>
+          
+          
+          <div class="level-item">
+            <a role="button" data-target="copyTarget" aria-haspopup="true"
+              onclick="show_bib('https://onyiny-ang.github.io/media/oustral.bib')">
+              <span class="tag is-warning">Bibtex</span>
+            </a>
+          </div>
+          
+        </div>
+        <div class="level-right">
+          <div class="level-item">
+            <span class="post-date">2021-11-15</span>
+          </div>
+        </div>
+      </nav>
+      <div class="is-flex is-flex-direction-row">
+       
+        <div class="content" style="width:100%">
+        <h3>Anna Harbluk Lorimer, Lindsey Tulloch, Cecylia Bocovich and Ian Goldberg</h3>
+        
+        
+        <div class="content" style="width: 100%;">
+          
+          <p>In this paper we present our design and evaluation of OUStralopithecus (OUStral), a web-based Overt User Simulator that generates replaceable human-like traffic for use in decoy-routing-like censorhsip circumvenion systems. </p>
+
+          <a href="https:&#x2F;&#x2F;onyiny-ang.github.io&#x2F;publications&#x2F;oustral&#x2F;">Read More</a>
+        </div>
+        
+      
+      <div class="tags">
+        
+        <span class="tag"><a href="/tags/privacy enhancing technologies">Privacy Enhancing Technologies</a></span>
+        
+        <span class="tag"><a href="/tags/censorship resistance">Censorship Resistance</a></span>
+        
+        <span class="tag"><a href="/tags/decoy routing">Decoy Routing</a></span>
+        
+        <span class="tag"><a href="/tags/user simulation">User Simulation</a></span>
+        
+      </div>
+      
+      </div>
+    </div>
+    
+    <div class="mb-5">
+      <nav class="level mb-0">
+        <div class="level-left">
+          <div class="level-item">
+            <h3 class="post-title"><a href="https:&#x2F;&#x2F;onyiny-ang.github.io&#x2F;publications&#x2F;evaluation-of-the-salmon-algorithm&#x2F;">Evaluation of the Salmon Algorithm</a></h3>
+          </div>
+          
+          <div class="level-item">
+            <a href="https:&#x2F;&#x2F;ieeexplore.ieee.org&#x2F;document&#x2F;8058568" style="font-style: initial;" ><span class="tag is-warning">Link</span></a>
+          </div>
+          
+          
+          <div class="level-item">
+            <a role="button" data-target="copyTarget" aria-haspopup="true"
+              onclick="show_bib('https://onyiny-ang.github.io/media/salmon.bib')">
+              <span class="tag is-warning">Bibtex</span>
+            </a>
+          </div>
+          
+        </div>
+        <div class="level-right">
+          <div class="level-item">
+            <span class="post-date">2017-08-24</span>
+          </div>
+        </div>
+      </nav>
+      <div class="is-flex is-flex-direction-row">
+       
+        <div class="content" style="width:100%">
+        <h3>John Orth, Sheridan Houghten, and Lindsey Tulloch</h3>
+        
+        
+        <div class="content" style="width: 100%;">
+          
+          <p>In this paper we evaluated the performance of a metaheuristic algorithm (Salmon Algorithm) through the use of an automated parameter tuning tool (ParamILS).</p>
+
+          <a href="https:&#x2F;&#x2F;onyiny-ang.github.io&#x2F;publications&#x2F;evaluation-of-the-salmon-algorithm&#x2F;">Read More</a>
+        </div>
+        
+      
+      <div class="tags">
+        
+        <span class="tag"><a href="/tags/error correction codes">Error Correction Codes</a></span>
+        
+        <span class="tag"><a href="/tags/hamming distance">Hamming Distance</a></span>
+        
+        <span class="tag"><a href="/tags/sequential analysis">Sequential Analysis</a></span>
+        
+        <span class="tag"><a href="/tags/dna">DNA</a></span>
+        
+        <span class="tag"><a href="/tags/bioinformatics">Bioinformatics</a></span>
+        
+      </div>
+      
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+
+  </div>
+  
+<script>
+  function show_bib(bib_path) {
+    $.ajax({
+      url: bib_path,
+      success: function (data) {
+        $("#bibtex-content").text(data);
+        $("#copyTarget").addClass("is-active");
+      },
+    });
+  }
+
+  document
+    .getElementById("copyButton")
+    .addEventListener("click", function () {
+      var copyText = document.getElementById("bibtex-content");
+      copyText.select();
+      copyText.setSelectionRange(0, 99999);
+      navigator.clipboard.writeText(copyText.value);
+      $("#copyTarget").removeClass("is-active");
+    });
+</script>
+
+  
+
+
+  
+<script src="https://cdn.jsdelivr.net/npm/fullpage.js@3.1.2/dist/fullpage.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fullpage.js@3.1.2/vendors/scrolloverflow.min.js"></script>
+<script type="text/javascript">
+    var fullpages = new fullpage('#fullpage', {
+        menu: '#menu',
+        setRecordHistory: false,
+        anchors: [
+             'anchor_about',         
+             'anchor_skills',        
+            
+             'anchor_opensource',    
+             'anchor_publications',  
+             'anchor_talks',         
+            
+             'anchor_education',     
+             'anchor_blog',          
+        ],
+        afterResize: function( width, height ){
+		    if (width < 936) {
+                fullpage_api.setAutoScrolling(false);
+            } else {
+                fullpage_api.setAutoScrolling(true);
+            }
+	    }
+    });
+    if (screen.width < 936){
+        fullpages.setAutoScrolling(false);
+    }
+
+</script>
+
+</body>
+
+</html>

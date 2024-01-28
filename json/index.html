@@ -1,0 +1,179 @@
+[ 
+  
+  
+      
+      {
+      "title": "New Year, New Projects",
+      "url": "https://onyiny-ang.github.io/blog/2022-07-01/",
+      "body": ""
+      }
+    
+    ,
+    
+      
+      {
+      "title": "Lox Library",
+      "url": "https://onyiny-ang.github.io/opensource/lox/",
+      "body": ""
+      }
+    ,
+    
+    
+      
+      {
+      "title": "Slitheen",
+      "url": "https://onyiny-ang.github.io/opensource/slitheen/",
+      "body": ""
+      }
+    ,
+    
+    
+      
+      {
+      "title": "Redhat Developer Vscode Tekton",
+      "url": "https://onyiny-ang.github.io/opensource/vscode-tekton/",
+      "body": ""
+      }
+    ,
+    
+    
+      
+      {
+      "title": "Git Your Own Adventure",
+      "url": "https://onyiny-ang.github.io/opensource/git/",
+      "body": ""
+      }
+    
+    ,
+    
+      
+      {
+      "title": "Resume: a zola theme",
+      "url": "https://onyiny-ang.github.io/projects/resume-a-zola-theme/",
+      "body": "Zola Resume\n快速开始\ngit clone git@github.com:alongwy/zola-resume.git\ncd zola-resume\nzola serve\n# open http://127.0.0.1:1111/\n\n此方法之后更新主题可能比较麻烦\n安装\n第一步: 初始化网站\nzola init mysite\n\nStep 2: 安装 zola-resume\n安装该主题到themes目录:\ncd mysite/themes\ngit clone git@github.com:alongwy/zola-resume.git\n\n或者使用 submodule 安装:\ncd mysite\ngit init  # if your project is a git repository already, ignore this command\ngit submodule add git@github.com:alongwy/zola-resume.git themes/zola-resume\n\nStep 3: 配置网站\n在配置文件中 config.toml 开启本主题:\ntheme = &quot;zola-resume&quot;\n\n或者直接复制 config.toml.example 到本目录:\ncp themes/zola-resume/config.toml.example config.toml\n\nStep 4: 添加/修改内容\n然后复制:\ncp -r themes/zola-resume/data .\ncp -r themes/zola-resume/content .\n\n你可以修改或者添加新内容到 content/blog, content/projects 等目录，注意其中的 _index.md 不要删除。\nStep 5: 运行项目\n使用如下命令查看效果:\nzola serve\n\n打开 http://127.0.0.1:1111 查看效果。\nStep 6: 自动构建\n复制 github actions 配置文件：\nmkdir -p .github/workflows\ncp themes/zola-resume/build.yml .github/workflows/build.yml\n\n配置 CMS 系统\nStep 1: 修改配置文件\n复制 cms 配置文件:\ncp themes/zola-resume/static/admin/config.yml static/admin/config.yml\n\n并修改如下部分:\n# static/admin/config.yml\n\nbackend:\n  name: github\n  repo: USERNAME/REPO             # &lt;-- 记得修改\n  branch: BRANCH                  # &lt;-- 记得修改\n  cms_label_prefix: netlify-cms/\n  site_domain: DOMAIN.netlify.com # 记下来这个位置，之后会用到\n\n配置后台认证\n首先到 Netlify 注册账号并配置仓库，这个时候会自动构建失败，不用管它。\n进入网站 setting 的 Build &amp; deploy 选项把 Build settings 的 active 关掉，这样就不会消耗 netlify 的自动构建时长。\n进入 setting 的 Access control 找到其中的 OAuth，Install provider 把 Github 装上。其中的 github app 可以查看这个文档进行配置。\n最后在 setting 的 Custom domains 里面添加 YOURNAME.github.io，会有警告，但是不用管他，前面有一个 Default subdomain，把他记下来填到 static/admin/config.yml 里面的 backend.site_domain 里面去。\nAbout 主页\n修改 contents/_index.md 来改变主页内容\n其他文件\n\ndata/certifications.json\ndata/social.json\ndata/skills.json\ndata/experience.json\ndata/education.json\n\n"
+      }
+    ,
+    
+    
+      
+      {
+      "title": "gpustat: a rust-version of gpustat.",
+      "url": "https://onyiny-ang.github.io/projects/gpustat-a-rust-version-of-gpustat/",
+      "body": "gpustat\n\n\nA rust version of gpustat.\nJust less than nvidia-smi?\nUsage\n$ gpustat\nOptions:\n\n--color            : Force colored output (even when stdout is not a tty)\n--no-color         : Suppress colored output\n-u, --show-user  : Display username of the process owner\n-c, --show-cmd   : Display the process name\n-f, --show-full-cmd   : Display full command and cpu stats of running process\n-p, --show-pid   : Display PID of the process\n-F, --show-fan   : Display GPU fan speed\n-e, --show-codec : Display encoder and/or decoder utilization\n-a, --show-all   : Display all gpu properties above\n\nQuick Installation\nInstall from Cargo:\ncargo install gpustat\n\nDefault display\n\n[0] | A100-PCIE-40GB | 65'C | 75 % | 33409 / 40536 MB | along(33407M)\n\n\n[0]: GPUindex (starts from 0) as PCI_BUS_ID\nA100-PCIE-40GB: GPU name\n65'C: Temperature\n75 %: Utilization\n33409 / 40536 MB: GPU Memory Usage\nalong(33407M): Username of the running processes owner on GPU (and their memory usage)\n\nLicense\nGPL v2 License\n"
+      }
+    ,
+    
+    
+      
+      {
+      "title": "Language Technology Platform",
+      "url": "https://onyiny-ang.github.io/projects/language-technology-platform/",
+      "body": "Intro\nAn open-source neural language technology platform supporting six fundamental Chinese NLP tasks:\n\nlexical analysis (Chinese word segmentation, part-of-speech tagging, and named entity recognition)\nsyntactic parsing (dependency parsing)\nsemantic parsing (semantic dependency parsing and semantic role labeling). \n\nQuickstart\nfrom ltp import LTP\n\nltp = LTP()  # 默认加载 Small 模型\nseg, hidden = ltp.seg([&quot;他叫汤姆去拿外衣。&quot;])\npos = ltp.pos(hidden)\nner = ltp.ner(hidden)\nsrl = ltp.srl(hidden)\ndep = ltp.dep(hidden)\nsdp = ltp.sdp(hidden)\n\nPerformance\nModelCWSPOSNERSRLDEPSDPSpeed(Sents/S)\nLTP 4.0 (Base)98.7098.5095.480.6089.5075.2039.12\nLTP 4.0 (Base1)99.2298.7396.3979.2889.5776.57--.--\nLTP 4.0 (Base2)99.1898.6995.9779.4990.1976.62--.--\nLTP 4.0 (Small)98.4098.2094.3078.4088.3074.7043.13\nLTP 4.0 (Tiny)96.8097.1091.6070.9083.8070.1053.22\n\nCite\n@article{che2020n,\n  title={N-LTP: A Open-source Neural Chinese Language Technology Platform with Pretrained Models},\n  author={Che, Wanxiang and Feng, Yunlong and Qin, Libo and Liu, Ting},\n  journal={arXiv preprint arXiv:2009.11616},\n  year={2020}\n}\n\n"
+      }
+    ,
+    
+    
+      
+      {
+      "title": "NotFeed: A RSS Reader on GitHub",
+      "url": "https://onyiny-ang.github.io/projects/notfeed-a-rss-reader-on-github/",
+      "body": "NotCraft::NotFeed\nAn RSS reader running entirely from your GitHub repo.\n\nFree hosting on GitHub Pages. No ads. No third party tracking.\nNo need for backend. Content updates via GitHub Actions.\nCustomizable layouts and styles via templating and theming API. Just bring your HTML and CSS.\nFree and open source. No third-party tracking.\n\nHow to use it?\nGithub Pages\n\n\nUse the NotFeed-Template generate your own repository.\n\n\nIn the repository root, open Config.toml file, click the &quot;Pencil (Edit this file)&quot; button to edit.\n\n\nRemove # to uncommend the cacheUrl property, replace &lt;github_username&gt; with your GitHub username, and\nreplace &lt;repo&gt; with your GitHub repo name.\n\n\nIn the sources, update the items to the sources you want to follow. The final content of the file should look similar\nto this:\n# Config.toml\n\nsite_title = &quot;ArxivDaily&quot;\ncache_max_days = 7\nsources = [\n  &quot;https://export.arxiv.org/rss/cs.CL&quot;\n]\n# proxy = &quot;http://127.0.0.1:7890&quot; ## Optional: default is None\n# statics_dir   = &quot;statics&quot;       ## Optional: default is &quot;statics&quot;\n# templates_dir = &quot;includes&quot;      ## Optional: default is &quot;includes&quot;\n# cache_url = &quot;https://GITHUB_USERNAME.github.io/REPO_NAME/cache.json&quot;\n# minify = true\n# [scripts]\n# highlight = &quot;scripts/highlight.rhai&quot;\n\n\n\nScroll to the bottom of the page, click &quot;Commit changes&quot; button.\n\n\nOnce the rebuild finishes, your feed will be available at https://&lt;github_username&gt;.github.io/&lt;repo&gt;\n\n\nLocalhost\n\n\nClone the NotFeed-Template repository.\n\n\nEdit Config.toml file.\n\n\nRun notfeed\n\nbuild: notfeed build\nserve: notfeed serve --addr 127.0.0.1 --port 8080 or simply notfeed serve\n\n\n\nThanks\n\nInspired by osmos::feed\n\n"
+      }
+    
+    ,
+    
+      {
+      "title": "Evaluation of the Salmon Algorithm",
+      "url": "https://onyiny-ang.github.io/publications/evaluation-of-the-salmon-algorithm/",
+      "body": "The salmon algorithm is a metaheuristic inspired by the behaviour of salmon swimming upstream to spawn. It has previously shown success when used for the creation of sets of robust tags for DNA sequencing applications, as well as for the travelling salesman problem. In this paper the salmon algorithm is evaluated for the construction of optimal covering and error-correcting codes, which are related to sequencing applications, as well as for the DNA fragment assembly problem, which is related to the travelling salesman problem. Parameter tuning for the salmon algorithm is extensively studied, as well as the use of automated parameter tuning.\n"
+      }
+    ,
+    
+    
+      {
+      "title": "OUStralopithecus: Overt User Simulation for Censorship Circumvention",
+      "url": "https://onyiny-ang.github.io/publications/oustral/",
+      "body": "In many parts of the world, censors are continuously increasing their capacity to fingerprint, identify, and block censorship resistance tools \nto maintain control over what can and can not be accessed over the Internet. In response, traffic replacement, which involves co-opting a steady \nstream of uncensored overt traffic to serve as a perfect cover for censored covert content, has been developed in an effort to provide undetectable \naccess to the open Internet for those in censored regions. Despite the promise of this technique, creating a suitable stream of uncensored overt traffic \nthat is high throughput, fingerprint and identification resistant, and does not overburden the user to generate, is an underexplored area that is critical \nto traffic replacement's success. To address this, we propose OUStralopithecus (OUStral for short), a web-based Overt User Simulator (OUS) that browses the \nweb as a human would in order to avoid being detected by a censor. We implement OUStral as a Python library that can be added to an existing traffic-replacement \nsystem. To evaluate OUStral we connect it to an existing traffic replacement system, Slitheen, that replaces media data such as images. Additionally, we\nimplement WebM video replacement for Slitheen to demonstrate the high throughput that OUStral is able to provide. We show that OUStral evades being detected \nas a bot by state-of-the-art bot detection software while providing a high-throughput overt data channel for covert data replacement.\n"
+      }
+    ,
+    
+    
+      {
+      "title": "Lox: Protecting the Social Graph in Bridge Distribution (MMath Thesis)",
+      "url": "https://onyiny-ang.github.io/publications/thesis/",
+      "body": "Access to the open Internet, free from surveillance and censorship, is an important part of fulfilling the right to privacy. Despite this, in many regions of the world, censorship of the Internet is used to limit access to information, monitor the activity of Internet users and quash dissent. Where access to the Internet is heavily censored, anti-censorship proxies, or bridges, can offer a connection to journalists, dissidents and members of oppressed groups who seek access to the Internet beyond a censor's area of influence. Bridges are an anti-censorship tool that can provide users inside censored regions with a link to the open Internet. Using bridges as an anti-censorship tool is fraught with risks for users inside the censored region who may face persecution if they are discovered using or requesting bridges. \n"
+      }
+    ,
+    
+    
+      {
+      "title": "Investigating Membership Inference Attacks under Data Dependencies",
+      "url": "https://onyiny-ang.github.io/publications/dpml/",
+      "body": "Training machine learning models on privacy-sensitive data has become a popular practice, driving innovation in ever-expanding fields. This has opened the door to new attacks that can have serious privacy implications. One such attack, the Membership Inference Attack (MIA), exposes whether or not a particular data point was used to train a model. A growing body of literature uses Differentially Private (DP) training algorithms as a defence against such attacks. However, these works evaluate the defence under the restrictive assumption that all members of the training set, as well as non-members, are independent and identically distributed. This assumption does not hold for many real-world use cases in the literature. Motivated by this, we evaluate membership inference with statistical dependencies among samples and explain why DP does not provide meaningful protection (the privacy parameter ε scales with the training set size n) in this more general case. We conduct a series of empirical evaluations with off-the-shelf MIAs using training sets built from real-world data showing different types of dependencies among samples. Our results reveal that training set dependencies can severely increase the performance of MIAs, and therefore assuming that data samples are statistically independent can significantly underestimate the performance of MIAs. \n"
+      }
+    ,
+    
+    
+      {
+      "title": "Lox: Protecting the Social Graph in Bridge Distribution",
+      "url": "https://onyiny-ang.github.io/publications/lox/",
+      "body": "Lox incorporates each of the features described in this section into a novel privacy-preserving scheme. Lox allows users to build trust over time. Upon reaching a predetermined trust level, users are able to invite a number of friends. When a user is invited by a trusted user, they join Lox at a lower trust level and inherit their inviter’s bridges and the number of blocking events they have witnessed. These features are encoded as attributes in a user’s Lox credential, which allows the user to remain anonymous through their interactions with the system.\n"
+      }
+    
+    ,
+    
+      {
+      "title": "Lox: Protecting the Social Graph in Bridge Distribution",
+      "url": "https://onyiny-ang.github.io/talks/talk-7/",
+      "body": ""
+      }
+    ,
+    
+    
+      {
+      "title": "Spawning Salmon with Kubernetes or Kubernetes, the next research platform?",
+      "url": "https://onyiny-ang.github.io/talks/talk-6/",
+      "body": ""
+      }
+    ,
+    
+    
+      {
+      "title": "Kubernetes the New Research Platform",
+      "url": "https://onyiny-ang.github.io/talks/talk-5/",
+      "body": ""
+      }
+    ,
+    
+    
+      {
+      "title": "SIG Multicluster and the Path to Federation",
+      "url": "https://onyiny-ang.github.io/talks/talk-4/",
+      "body": ""
+      }
+    ,
+    
+    
+      {
+      "title": "Exploring Application Portability Across Clouds using Kubernetes",
+      "url": "https://onyiny-ang.github.io/talks/talk-3/",
+      "body": ""
+      }
+    ,
+    
+    
+      {
+      "title": "Federation v2 (MultiCluster Kubernetes)",
+      "url": "https://onyiny-ang.github.io/talks/talk-2/",
+      "body": ""
+      }
+    ,
+    
+    
+      {
+      "title": "Evaluation of the Salmon Algorithm",
+      "url": "https://onyiny-ang.github.io/talks/talk-1/",
+      "body": ""
+      }
+    
+    ]

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Lindsey Tulloch - tutorial</title>
+    <subtitle>Master of Mathematics, Privacy and Security Researcher, Software Developer</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://onyiny-ang.github.io/tags/tutorial/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://onyiny-ang.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2019-02-14T14:13:14.674+00:00</updated>
+    <id>https://onyiny-ang.github.io/tags/tutorial/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Git Your Own Adventure</title>
+        <published>2019-02-14T14:13:14.674+00:00</published>
+        <updated>2019-02-14T14:13:14.674+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://onyiny-ang.github.io/opensource/git/"/>
+        <id>https://onyiny-ang.github.io/opensource/git/</id>
+        
+        <content type="html" xml:base="https://onyiny-ang.github.io/opensource/git/"></content>
+        
+    </entry>
+</feed>

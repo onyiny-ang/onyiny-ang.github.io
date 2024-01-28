@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Lindsey Tulloch - Censorship Circumvention</title>
+    <subtitle>Master of Mathematics, Privacy and Security Researcher, Software Developer</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://onyiny-ang.github.io/tags/censorship-circumvention/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://onyiny-ang.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-07-12T00:00:00+00:00</updated>
+    <id>https://onyiny-ang.github.io/tags/censorship-circumvention/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Lox: Protecting the Social Graph in Bridge Distribution</title>
+        <published>2023-07-12T00:00:00+00:00</published>
+        <updated>2023-07-12T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://onyiny-ang.github.io/talks/talk-7/"/>
+        <id>https://onyiny-ang.github.io/talks/talk-7/</id>
+        
+        <content type="html" xml:base="https://onyiny-ang.github.io/talks/talk-7/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Lox: Protecting the Social Graph in Bridge Distribution (MMath Thesis)</title>
+        <published>2022-05-26T00:00:00+00:00</published>
+        <updated>2022-05-26T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://onyiny-ang.github.io/publications/thesis/"/>
+        <id>https://onyiny-ang.github.io/publications/thesis/</id>
+        
+        <content type="html" xml:base="https://onyiny-ang.github.io/publications/thesis/">&lt;p&gt;Access to the open Internet, free from surveillance and censorship, is an important part of fulfilling the right to privacy. Despite this, in many regions of the world, censorship of the Internet is used to limit access to information, monitor the activity of Internet users and quash dissent. Where access to the Internet is heavily censored, anti-censorship proxies, or bridges, can offer a connection to journalists, dissidents and members of oppressed groups who seek access to the Internet beyond a censor&#x27;s area of influence. Bridges are an anti-censorship tool that can provide users inside censored regions with a link to the open Internet. Using bridges as an anti-censorship tool is fraught with risks for users inside the censored region who may face persecution if they are discovered using or requesting bridges. &lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Lox Library</title>
+        <published>2022-04-21T14:13:14.674+00:00</published>
+        <updated>2022-04-21T14:13:14.674+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://onyiny-ang.github.io/opensource/lox/"/>
+        <id>https://onyiny-ang.github.io/opensource/lox/</id>
+        
+        <content type="html" xml:base="https://onyiny-ang.github.io/opensource/lox/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>New Year, New Projects</title>
+        <published>2022-01-07T14:13:14.674+00:00</published>
+        <updated>2022-01-07T14:13:14.674+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://onyiny-ang.github.io/blog/2022-07-01/"/>
+        <id>https://onyiny-ang.github.io/blog/2022-07-01/</id>
+        
+        <content type="html" xml:base="https://onyiny-ang.github.io/blog/2022-07-01/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Slitheen</title>
+        <published>2020-07-06T14:13:14.674+00:00</published>
+        <updated>2020-07-06T14:13:14.674+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://onyiny-ang.github.io/opensource/slitheen/"/>
+        <id>https://onyiny-ang.github.io/opensource/slitheen/</id>
+        
+        <content type="html" xml:base="https://onyiny-ang.github.io/opensource/slitheen/"></content>
+        
+    </entry>
+</feed>

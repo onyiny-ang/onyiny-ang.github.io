@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Lindsey Tulloch</title>
+    <subtitle>Master of Mathematics, Privacy and Security Researcher, Software Developer</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://onyiny-ang.github.io/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://onyiny-ang.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-07-12T00:00:00+00:00</updated>
+    <id>https://onyiny-ang.github.io/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Lox: Protecting the Social Graph in Bridge Distribution</title>
+        <published>2023-07-12T00:00:00+00:00</published>
+        <updated>2023-07-12T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://onyiny-ang.github.io/talks/talk-7/"/>
+        <id>https://onyiny-ang.github.io/talks/talk-7/</id>
+        
+        <content type="html" xml:base="https://onyiny-ang.github.io/talks/talk-7/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Lox: Protecting the Social Graph in Bridge Distribution</title>
+        <published>2023-07-11T00:00:00+00:00</published>
+        <updated>2023-07-11T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://onyiny-ang.github.io/publications/lox/"/>
+        <id>https://onyiny-ang.github.io/publications/lox/</id>
+        
+        <content type="html" xml:base="https://onyiny-ang.github.io/publications/lox/">&lt;p&gt;Lox incorporates each of the features described in this section into a novel privacy-preserving scheme. Lox allows users to build trust over time. Upon reaching a predetermined trust level, users are able to invite a number of friends. When a user is invited by a trusted user, they join Lox at a lower trust level and inherit their inviter’s bridges and the number of blocking events they have witnessed. These features are encoded as attributes in a user’s Lox credential, which allows the user to remain anonymous through their interactions with the system.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Investigating Membership Inference Attacks under Data Dependencies</title>
+        <published>2023-07-10T00:00:00+00:00</published>
+        <updated>2023-07-10T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://onyiny-ang.github.io/publications/dpml/"/>
+        <id>https://onyiny-ang.github.io/publications/dpml/</id>
+        
+        <content type="html" xml:base="https://onyiny-ang.github.io/publications/dpml/">&lt;p&gt;Training machine learning models on privacy-sensitive data has become a popular practice, driving innovation in ever-expanding fields. This has opened the door to new attacks that can have serious privacy implications. One such attack, the Membership Inference Attack (MIA), exposes whether or not a particular data point was used to train a model. A growing body of literature uses Differentially Private (DP) training algorithms as a defence against such attacks. However, these works evaluate the defence under the restrictive assumption that all members of the training set, as well as non-members, are independent and identically distributed. This assumption does not hold for many real-world use cases in the literature. Motivated by this, we evaluate membership inference with statistical dependencies among samples and explain why DP does not provide meaningful protection (the privacy parameter ε scales with the training set size n) in this more general case. We conduct a series of empirical evaluations with off-the-shelf MIAs using training sets built from real-world data showing different types of dependencies among samples. Our results reveal that training set dependencies can severely increase the performance of MIAs, and therefore assuming that data samples are statistically independent can significantly underestimate the performance of MIAs. &lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Lox: Protecting the Social Graph in Bridge Distribution (MMath Thesis)</title>
+        <published>2022-05-26T00:00:00+00:00</published>
+        <updated>2022-05-26T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://onyiny-ang.github.io/publications/thesis/"/>
+        <id>https://onyiny-ang.github.io/publications/thesis/</id>
+        
+        <content type="html" xml:base="https://onyiny-ang.github.io/publications/thesis/">&lt;p&gt;Access to the open Internet, free from surveillance and censorship, is an important part of fulfilling the right to privacy. Despite this, in many regions of the world, censorship of the Internet is used to limit access to information, monitor the activity of Internet users and quash dissent. Where access to the Internet is heavily censored, anti-censorship proxies, or bridges, can offer a connection to journalists, dissidents and members of oppressed groups who seek access to the Internet beyond a censor&#x27;s area of influence. Bridges are an anti-censorship tool that can provide users inside censored regions with a link to the open Internet. Using bridges as an anti-censorship tool is fraught with risks for users inside the censored region who may face persecution if they are discovered using or requesting bridges. &lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Lox Library</title>
+        <published>2022-04-21T14:13:14.674+00:00</published>
+        <updated>2022-04-21T14:13:14.674+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://onyiny-ang.github.io/opensource/lox/"/>
+        <id>https://onyiny-ang.github.io/opensource/lox/</id>
+        
+        <content type="html" xml:base="https://onyiny-ang.github.io/opensource/lox/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>New Year, New Projects</title>
+        <published>2022-01-07T14:13:14.674+00:00</published>
+        <updated>2022-01-07T14:13:14.674+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://onyiny-ang.github.io/blog/2022-07-01/"/>
+        <id>https://onyiny-ang.github.io/blog/2022-07-01/</id>
+        
+        <content type="html" xml:base="https://onyiny-ang.github.io/blog/2022-07-01/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>OUStralopithecus: Overt User Simulation for Censorship Circumvention</title>
+        <published>2021-11-15T00:00:00+00:00</published>
+        <updated>2021-11-15T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://onyiny-ang.github.io/publications/oustral/"/>
+        <id>https://onyiny-ang.github.io/publications/oustral/</id>
+        
+        <content type="html" xml:base="https://onyiny-ang.github.io/publications/oustral/">&lt;p&gt;In many parts of the world, censors are continuously increasing their capacity to fingerprint, identify, and block censorship resistance tools&lt;br &#x2F;&gt; 
+to maintain control over what can and can not be accessed over the Internet. In response, traffic replacement, which involves co-opting a steady &lt;br &#x2F;&gt;
+stream of uncensored overt traffic to serve as a perfect cover for censored covert content, has been developed in an effort to provide undetectable &lt;br &#x2F;&gt;
+access to the open Internet for those in censored regions. Despite the promise of this technique, creating a suitable stream of uncensored overt traffic &lt;br &#x2F;&gt;
+that is high throughput, fingerprint and identification resistant, and does not overburden the user to generate, is an underexplored area that is critical &lt;br &#x2F;&gt;
+to traffic replacement&#x27;s success. To address this, we propose OUStralopithecus (OUStral for short), a web-based Overt User Simulator (OUS) that browses the &lt;br &#x2F;&gt;
+web as a human would in order to avoid being detected by a censor. We implement OUStral as a Python library that can be added to an existing traffic-replacement &lt;br &#x2F;&gt;
+system. To evaluate OUStral we connect it to an existing traffic replacement system, Slitheen, that replaces media data such as images. Additionally, we&lt;br &#x2F;&gt;
+implement WebM video replacement for Slitheen to demonstrate the high throughput that OUStral is able to provide. We show that OUStral evades being detected &lt;br &#x2F;&gt;
+as a bot by state-of-the-art bot detection software while providing a high-throughput overt data channel for covert data replacement.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Resume: a zola theme</title>
+        <published>2021-09-03T13:30:54.712+00:00</published>
+        <updated>2021-09-03T13:30:54.712+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://onyiny-ang.github.io/projects/resume-a-zola-theme/"/>
+        <id>https://onyiny-ang.github.io/projects/resume-a-zola-theme/</id>
+        
+        <content type="html" xml:base="https://onyiny-ang.github.io/projects/resume-a-zola-theme/">&lt;h1 id=&quot;zola-resume&quot;&gt;Zola Resume&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;kuai-su-kai-shi&quot;&gt;快速开始&lt;&#x2F;h2&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#fafafa;color:#383a42;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#e45649;&quot;&gt;git&lt;&#x2F;span&gt;&lt;span&gt; clone git@github.com:alongwy&#x2F;zola-resume.git
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#0184bc;&quot;&gt;cd&lt;&#x2F;span&gt;&lt;span&gt; zola-resume
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#e45649;&quot;&gt;zola&lt;&#x2F;span&gt;&lt;span&gt; serve
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a0a1a7;&quot;&gt;# open http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;strong&gt;此方法之后更新主题可能比较麻烦&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;an-zhuang&quot;&gt;安装&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;di-yi-bu-chu-shi-hua-wang-zhan&quot;&gt;第一步: 初始化网站&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#fafafa;color:#383a42;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#e45649;&quot;&gt;zola&lt;&#x2F;span&gt;&lt;span&gt; init mysite
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;step-2-an-zhuang-zola-resume&quot;&gt;Step 2: 安装 zola-resume&lt;&#x2F;h3&gt;
+&lt;p&gt;安装该主题到&lt;code&gt;themes&lt;&#x2F;code&gt;目录:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#fafafa;color:#383a42;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#0184bc;&quot;&gt;cd&lt;&#x2F;span&gt;&lt;span&gt; mysite&#x2F;themes
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#e45649;&quot;&gt;git&lt;&#x2F;span&gt;&lt;span&gt; clone git@github.com:alongwy&#x2F;zola-resume.git
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;或者使用 submodule 安装:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#fafafa;color:#383a42;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#0184bc;&quot;&gt;cd&lt;&#x2F;span&gt;&lt;span&gt; mysite
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#e45649;&quot;&gt;git&lt;&#x2F;span&gt;&lt;span&gt; init  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#a0a1a7;&quot;&gt;# if your project is a git repository already, ignore this command
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#e45649;&quot;&gt;git&lt;&#x2F;span&gt;&lt;span&gt; submodule add git@github.com:alongwy&#x2F;zola-resume.git themes&#x2F;zola-resume
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;step-3-pei-zhi-wang-zhan&quot;&gt;Step 3: 配置网站&lt;&#x2F;h3&gt;
+&lt;p&gt;在配置文件中 &lt;code&gt;config.toml&lt;&#x2F;code&gt; 开启本主题:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;toml&quot; style=&quot;background-color:#fafafa;color:#383a42;&quot; class=&quot;language-toml &quot;&gt;&lt;code class=&quot;language-toml&quot; data-lang=&quot;toml&quot;&gt;&lt;span style=&quot;color:#e45649;&quot;&gt;theme &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#50a14f;&quot;&gt;&amp;quot;zola-resume&amp;quot;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;或者直接复制 &lt;code&gt;config.toml.example&lt;&#x2F;code&gt; 到本目录:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#fafafa;color:#383a42;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#e45649;&quot;&gt;cp&lt;&#x2F;span&gt;&lt;span&gt; themes&#x2F;zola-resume&#x2F;config.toml.example config.toml
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;step-4-tian-jia-xiu-gai-nei-rong&quot;&gt;Step 4: 添加&#x2F;修改内容&lt;&#x2F;h3&gt;
+&lt;p&gt;然后复制:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#fafafa;color:#383a42;&quot;&gt;&lt;code&gt;&lt;span&gt;cp -r themes&#x2F;zola-resume&#x2F;data .
+&lt;&#x2F;span&gt;&lt;span&gt;cp -r themes&#x2F;zola-resume&#x2F;content .
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;你可以修改或者添加新内容到 &lt;code&gt;content&#x2F;blog&lt;&#x2F;code&gt;, &lt;code&gt;content&#x2F;projects&lt;&#x2F;code&gt; 等目录，注意其中的 &lt;code&gt;_index.md&lt;&#x2F;code&gt; 不要删除。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;step-5-yun-xing-xiang-mu&quot;&gt;Step 5: 运行项目&lt;&#x2F;h3&gt;
+&lt;p&gt;使用如下命令查看效果:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#fafafa;color:#383a42;&quot;&gt;&lt;code&gt;&lt;span&gt;zola serve
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;打开 http:&#x2F;&#x2F;127.0.0.1:1111 查看效果。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;step-6-zi-dong-gou-jian&quot;&gt;Step 6: 自动构建&lt;&#x2F;h3&gt;
+&lt;p&gt;复制 github actions 配置文件：&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#fafafa;color:#383a42;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#e45649;&quot;&gt;mkdir -p&lt;&#x2F;span&gt;&lt;span&gt; .github&#x2F;workflows
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#e45649;&quot;&gt;cp&lt;&#x2F;span&gt;&lt;span&gt; themes&#x2F;zola-resume&#x2F;build.yml .github&#x2F;workflows&#x2F;build.yml
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h2 id=&quot;pei-zhi-cms-xi-tong&quot;&gt;配置 CMS 系统&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;step-1-xiu-gai-pei-zhi-wen-jian&quot;&gt;Step 1: 修改配置文件&lt;&#x2F;h3&gt;
+&lt;p&gt;复制 cms 配置文件:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#fafafa;color:#383a42;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#e45649;&quot;&gt;cp&lt;&#x2F;span&gt;&lt;span&gt; themes&#x2F;zola-resume&#x2F;static&#x2F;admin&#x2F;config.yml static&#x2F;admin&#x2F;config.yml
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;并修改如下部分:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;yaml&quot; style=&quot;background-color:#fafafa;color:#383a42;&quot; class=&quot;language-yaml &quot;&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span style=&quot;color:#a0a1a7;&quot;&gt;# static&#x2F;admin&#x2F;config.yml
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#e45649;&quot;&gt;backend&lt;&#x2F;span&gt;&lt;span&gt;:
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#e45649;&quot;&gt;name&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#50a14f;&quot;&gt;github
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#e45649;&quot;&gt;repo&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#50a14f;&quot;&gt;USERNAME&#x2F;REPO             &lt;&#x2F;span&gt;&lt;span style=&quot;color:#a0a1a7;&quot;&gt;# &amp;lt;-- 记得修改
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#e45649;&quot;&gt;branch&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#50a14f;&quot;&gt;BRANCH                  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#a0a1a7;&quot;&gt;# &amp;lt;-- 记得修改
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#e45649;&quot;&gt;cms_label_prefix&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#50a14f;&quot;&gt;netlify-cms&#x2F;
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#e45649;&quot;&gt;site_domain&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#50a14f;&quot;&gt;DOMAIN.netlify.com &lt;&#x2F;span&gt;&lt;span style=&quot;color:#a0a1a7;&quot;&gt;# 记下来这个位置，之后会用到
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h2 id=&quot;pei-zhi-hou-tai-ren-zheng&quot;&gt;配置后台认证&lt;&#x2F;h2&gt;
+&lt;p&gt;首先到 &lt;a href=&quot;https:&#x2F;&#x2F;netlify.com&quot;&gt;Netlify&lt;&#x2F;a&gt; 注册账号并配置仓库，这个时候会自动构建失败，不用管它。&lt;&#x2F;p&gt;
+&lt;p&gt;进入网站 setting 的 &lt;code&gt;Build &amp;amp; deploy&lt;&#x2F;code&gt; 选项把 &lt;code&gt;Build settings&lt;&#x2F;code&gt; 的 &lt;code&gt;active&lt;&#x2F;code&gt; 关掉，这样就不会消耗 netlify 的自动构建时长。&lt;&#x2F;p&gt;
+&lt;p&gt;进入 setting 的 &lt;code&gt;Access control&lt;&#x2F;code&gt; 找到其中的 &lt;code&gt;OAuth&lt;&#x2F;code&gt;，&lt;code&gt;Install provider&lt;&#x2F;code&gt; 把 Github 装上。其中的 github app 可以查看这个&lt;a href=&quot;https:&#x2F;&#x2F;docs.netlify.com&#x2F;visitor-access&#x2F;oauth-provider-tokens&#x2F;&quot;&gt;文档&lt;&#x2F;a&gt;进行配置。&lt;&#x2F;p&gt;
+&lt;p&gt;最后在 setting 的 &lt;code&gt;Custom domains&lt;&#x2F;code&gt; 里面添加 &lt;code&gt;YOURNAME.github.io&lt;&#x2F;code&gt;，会有警告，但是不用管他，前面有一个 &lt;code&gt;Default subdomain&lt;&#x2F;code&gt;，把他记下来填到 &lt;code&gt;static&#x2F;admin&#x2F;config.yml&lt;&#x2F;code&gt; 里面的 &lt;code&gt;backend.site_domain&lt;&#x2F;code&gt; 里面去。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;about-zhu-ye&quot;&gt;About 主页&lt;&#x2F;h3&gt;
+&lt;p&gt;修改 &lt;code&gt;contents&#x2F;_index.md&lt;&#x2F;code&gt; 来改变主页内容&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;qi-ta-wen-jian&quot;&gt;其他文件&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;AlongWY&#x2F;zola-resume&#x2F;blob&#x2F;main&#x2F;data&#x2F;certifications.json&quot;&gt;data&#x2F;certifications.json&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;AlongWY&#x2F;zola-resume&#x2F;blob&#x2F;main&#x2F;data&#x2F;social.json&quot;&gt;data&#x2F;social.json&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;AlongWY&#x2F;zola-resume&#x2F;blob&#x2F;main&#x2F;data&#x2F;skills.json&quot;&gt;data&#x2F;skills.json&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;AlongWY&#x2F;zola-resume&#x2F;blob&#x2F;main&#x2F;data&#x2F;experience.json&quot;&gt;data&#x2F;experience.json&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;AlongWY&#x2F;zola-resume&#x2F;blob&#x2F;main&#x2F;data&#x2F;education.json&quot;&gt;data&#x2F;education.json&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>gpustat: a rust-version of gpustat.</title>
+        <published>2021-08-28T15:00:30.183+00:00</published>
+        <updated>2021-08-28T15:00:30.183+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://onyiny-ang.github.io/projects/gpustat-a-rust-version-of-gpustat/"/>
+        <id>https://onyiny-ang.github.io/projects/gpustat-a-rust-version-of-gpustat/</id>
+        
+        <content type="html" xml:base="https://onyiny-ang.github.io/projects/gpustat-a-rust-version-of-gpustat/">&lt;h3 id=&quot;gpustat&quot;&gt;gpustat&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;crates.io&#x2F;crates&#x2F;gpustat&quot;&gt;&lt;img src=&quot;https:&#x2F;&#x2F;img.shields.io&#x2F;crates&#x2F;v&#x2F;gpustat.svg&quot; alt=&quot;Crates.io&quot; &#x2F;&gt;&lt;&#x2F;a&gt;
+&lt;a href=&quot;https:&#x2F;&#x2F;onyiny-ang.github.io&#x2F;projects&#x2F;gpustat-a-rust-version-of-gpustat&#x2F;LICENSE&quot;&gt;&lt;img src=&quot;https:&#x2F;&#x2F;img.shields.io&#x2F;github&#x2F;license&#x2F;alongwy&#x2F;gpustat.svg?maxAge=86400&quot; alt=&quot;license&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;A rust version of &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;wookayin&#x2F;gpustat&quot;&gt;gpustat&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Just &lt;em&gt;less&lt;&#x2F;em&gt; than nvidia-smi?&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;usage&quot;&gt;Usage&lt;&#x2F;h4&gt;
+&lt;p&gt;&lt;code&gt;$ gpustat&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Options:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;--color&lt;&#x2F;code&gt;            : Force colored output (even when stdout is not a tty)&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;--no-color&lt;&#x2F;code&gt;         : Suppress colored output&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;-u&lt;&#x2F;code&gt;, &lt;code&gt;--show-user&lt;&#x2F;code&gt;  : Display username of the process owner&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;-c&lt;&#x2F;code&gt;, &lt;code&gt;--show-cmd&lt;&#x2F;code&gt;   : Display the process name&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;-f&lt;&#x2F;code&gt;, &lt;code&gt;--show-full-cmd&lt;&#x2F;code&gt;   : Display full command and cpu stats of running process&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;-p&lt;&#x2F;code&gt;, &lt;code&gt;--show-pid&lt;&#x2F;code&gt;   : Display PID of the process&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;-F&lt;&#x2F;code&gt;, &lt;code&gt;--show-fan&lt;&#x2F;code&gt;   : Display GPU fan speed&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;-e&lt;&#x2F;code&gt;, &lt;code&gt;--show-codec&lt;&#x2F;code&gt; : Display encoder and&#x2F;or decoder utilization&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;-a&lt;&#x2F;code&gt;, &lt;code&gt;--show-all&lt;&#x2F;code&gt;   : Display all gpu properties above&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;quick-installation&quot;&gt;Quick Installation&lt;&#x2F;h4&gt;
+&lt;p&gt;Install from Cargo:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#fafafa;color:#383a42;&quot;&gt;&lt;code&gt;&lt;span&gt;cargo install gpustat
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h4 id=&quot;default-display&quot;&gt;Default display&lt;&#x2F;h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[0] | A100-PCIE-40GB | 65&#x27;C | 75 % | 33409 &#x2F; 40536 MB | along(33407M)&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;[0]&lt;&#x2F;code&gt;: GPUindex (starts from 0) as PCI_BUS_ID&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;A100-PCIE-40GB&lt;&#x2F;code&gt;: GPU name&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;65&#x27;C&lt;&#x2F;code&gt;: Temperature&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;75 %&lt;&#x2F;code&gt;: Utilization&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;33409 &#x2F; 40536 MB&lt;&#x2F;code&gt;: GPU Memory Usage&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;along(33407M)&lt;&#x2F;code&gt;: Username of the running processes owner on GPU (and their memory usage)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;license&quot;&gt;License&lt;&#x2F;h4&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;onyiny-ang.github.io&#x2F;projects&#x2F;gpustat-a-rust-version-of-gpustat&#x2F;LICENSE&quot;&gt;GPL v2 License&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>NotFeed: A RSS Reader on GitHub</title>
+        <published>2021-08-28T11:40:32.885+00:00</published>
+        <updated>2021-08-28T11:40:32.885+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://onyiny-ang.github.io/projects/notfeed-a-rss-reader-on-github/"/>
+        <id>https://onyiny-ang.github.io/projects/notfeed-a-rss-reader-on-github/</id>
+        
+        <content type="html" xml:base="https://onyiny-ang.github.io/projects/notfeed-a-rss-reader-on-github/">&lt;h3 id=&quot;notcraft-notfeed&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;notcraft.alongwy.top&#x2F;NotFeed&#x2F;&quot;&gt;NotCraft::NotFeed&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;An RSS reader running entirely from your GitHub repo.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Free hosting on &lt;a href=&quot;https:&#x2F;&#x2F;pages.github.com&#x2F;&quot;&gt;GitHub Pages&lt;&#x2F;a&gt;. No ads. No third party tracking.&lt;&#x2F;li&gt;
+&lt;li&gt;No need for backend. Content updates via &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;features&#x2F;actions&quot;&gt;GitHub Actions&lt;&#x2F;a&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;Customizable layouts and styles via templating and theming API. Just bring your HTML and CSS.&lt;&#x2F;li&gt;
+&lt;li&gt;Free and open source. No third-party tracking.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;how-to-use-it&quot;&gt;How to use it?&lt;&#x2F;h3&gt;
+&lt;h4 id=&quot;github-pages&quot;&gt;Github Pages&lt;&#x2F;h4&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Use the &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;NotCraft&#x2F;NotFeed-Template&quot;&gt;NotFeed-Template&lt;&#x2F;a&gt; generate your own repository.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;In the repository root, open &lt;code&gt;Config.toml&lt;&#x2F;code&gt; file, click the &amp;quot;Pencil (Edit this file)&amp;quot; button to edit.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Remove &lt;code&gt;#&lt;&#x2F;code&gt; to uncommend the &lt;code&gt;cacheUrl&lt;&#x2F;code&gt; property, replace &lt;code&gt;&amp;lt;github_username&amp;gt;&lt;&#x2F;code&gt; with your GitHub username, and
+replace &lt;code&gt;&amp;lt;repo&amp;gt;&lt;&#x2F;code&gt; with your GitHub repo name.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;In the sources, update the items to the sources you want to follow. The final content of the file should look similar
+to this:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;toml&quot; style=&quot;background-color:#fafafa;color:#383a42;&quot; class=&quot;language-toml &quot;&gt;&lt;code class=&quot;language-toml&quot; data-lang=&quot;toml&quot;&gt;&lt;span style=&quot;color:#a0a1a7;&quot;&gt;# Config.toml
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#e45649;&quot;&gt;site_title &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#50a14f;&quot;&gt;&amp;quot;ArxivDaily&amp;quot;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#e45649;&quot;&gt;cache_max_days &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c18401;&quot;&gt;7
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#e45649;&quot;&gt;sources &lt;&#x2F;span&gt;&lt;span&gt;= [
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#50a14f;&quot;&gt;&amp;quot;https:&#x2F;&#x2F;export.arxiv.org&#x2F;rss&#x2F;cs.CL&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;]
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a0a1a7;&quot;&gt;# proxy = &amp;quot;http:&#x2F;&#x2F;127.0.0.1:7890&amp;quot; ## Optional: default is None
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a0a1a7;&quot;&gt;# statics_dir   = &amp;quot;statics&amp;quot;       ## Optional: default is &amp;quot;statics&amp;quot;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a0a1a7;&quot;&gt;# templates_dir = &amp;quot;includes&amp;quot;      ## Optional: default is &amp;quot;includes&amp;quot;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a0a1a7;&quot;&gt;# cache_url = &amp;quot;https:&#x2F;&#x2F;GITHUB_USERNAME.github.io&#x2F;REPO_NAME&#x2F;cache.json&amp;quot;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a0a1a7;&quot;&gt;# minify = true
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a0a1a7;&quot;&gt;# [scripts]
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a0a1a7;&quot;&gt;# highlight = &amp;quot;scripts&#x2F;highlight.rhai&amp;quot;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Scroll to the bottom of the page, click &amp;quot;Commit changes&amp;quot; button.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Once the rebuild finishes, your feed will be available at &lt;code&gt;https:&#x2F;&#x2F;&amp;lt;github_username&amp;gt;.github.io&#x2F;&amp;lt;repo&amp;gt;&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h4 id=&quot;localhost&quot;&gt;Localhost&lt;&#x2F;h4&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Clone the &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;NotCraft&#x2F;NotFeed-Template&quot;&gt;NotFeed-Template&lt;&#x2F;a&gt; repository.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Edit &lt;code&gt;Config.toml&lt;&#x2F;code&gt; file.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Run &lt;code&gt;notfeed&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;build: &lt;code&gt;notfeed build&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;serve: &lt;code&gt;notfeed serve --addr 127.0.0.1 --port 8080&lt;&#x2F;code&gt; or simply &lt;code&gt;notfeed serve&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h4 id=&quot;thanks&quot;&gt;Thanks&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Inspired by &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;osmoscraft&#x2F;osmosfeed&quot;&gt;osmos::feed&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Language Technology Platform</title>
+        <published>2021-08-28T11:35:41.496+00:00</published>
+        <updated>2021-08-28T11:35:41.496+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://onyiny-ang.github.io/projects/language-technology-platform/"/>
+        <id>https://onyiny-ang.github.io/projects/language-technology-platform/</id>
+        
+        <content type="html" xml:base="https://onyiny-ang.github.io/projects/language-technology-platform/">&lt;h3 id=&quot;intro&quot;&gt;Intro&lt;&#x2F;h3&gt;
+&lt;p&gt;An open-source neural language technology platform supporting six fundamental Chinese NLP tasks:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;lexical analysis (Chinese word segmentation, part-of-speech tagging, and named entity recognition)&lt;&#x2F;li&gt;
+&lt;li&gt;syntactic parsing (dependency parsing)&lt;&#x2F;li&gt;
+&lt;li&gt;semantic parsing (semantic dependency parsing and semantic role labeling). &lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;quickstart&quot;&gt;Quickstart&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;python&quot; style=&quot;background-color:#fafafa;color:#383a42;&quot; class=&quot;language-python &quot;&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span style=&quot;color:#a626a4;&quot;&gt;from &lt;&#x2F;span&gt;&lt;span&gt;ltp &lt;&#x2F;span&gt;&lt;span style=&quot;color:#a626a4;&quot;&gt;import &lt;&#x2F;span&gt;&lt;span style=&quot;color:#e45649;&quot;&gt;LTP
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;ltp &lt;&#x2F;span&gt;&lt;span style=&quot;color:#a626a4;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#e45649;&quot;&gt;LTP&lt;&#x2F;span&gt;&lt;span&gt;()  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#a0a1a7;&quot;&gt;# 默认加载 Small 模型
+&lt;&#x2F;span&gt;&lt;span&gt;seg, hidden &lt;&#x2F;span&gt;&lt;span style=&quot;color:#a626a4;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span&gt;ltp.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#e45649;&quot;&gt;seg&lt;&#x2F;span&gt;&lt;span&gt;([&lt;&#x2F;span&gt;&lt;span style=&quot;color:#50a14f;&quot;&gt;&amp;quot;他叫汤姆去拿外衣。&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;])
+&lt;&#x2F;span&gt;&lt;span&gt;pos &lt;&#x2F;span&gt;&lt;span style=&quot;color:#a626a4;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span&gt;ltp.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#e45649;&quot;&gt;pos&lt;&#x2F;span&gt;&lt;span&gt;(hidden)
+&lt;&#x2F;span&gt;&lt;span&gt;ner &lt;&#x2F;span&gt;&lt;span style=&quot;color:#a626a4;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span&gt;ltp.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#e45649;&quot;&gt;ner&lt;&#x2F;span&gt;&lt;span&gt;(hidden)
+&lt;&#x2F;span&gt;&lt;span&gt;srl &lt;&#x2F;span&gt;&lt;span style=&quot;color:#a626a4;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span&gt;ltp.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#e45649;&quot;&gt;srl&lt;&#x2F;span&gt;&lt;span&gt;(hidden)
+&lt;&#x2F;span&gt;&lt;span&gt;dep &lt;&#x2F;span&gt;&lt;span style=&quot;color:#a626a4;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span&gt;ltp.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#e45649;&quot;&gt;dep&lt;&#x2F;span&gt;&lt;span&gt;(hidden)
+&lt;&#x2F;span&gt;&lt;span&gt;sdp &lt;&#x2F;span&gt;&lt;span style=&quot;color:#a626a4;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span&gt;ltp.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#e45649;&quot;&gt;sdp&lt;&#x2F;span&gt;&lt;span&gt;(hidden)
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;performance&quot;&gt;Performance&lt;&#x2F;h3&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: left&quot;&gt;Model&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;CWS&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;POS&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;NER&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;SRL&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;DEP&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;SDP&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Speed(Sents&#x2F;S)&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;LTP 4.0 (Base)&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;98.70&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;98.50&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;95.4&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;80.60&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;89.50&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;75.20&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;39.12&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;LTP 4.0 (Base1)&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;99.22&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;98.73&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;96.39&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;79.28&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;89.57&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;76.57&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;--.--&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;LTP 4.0 (Base2)&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;99.18&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;98.69&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;95.97&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;79.49&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;90.19&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;76.62&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;--.--&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;LTP 4.0 (Small)&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;98.40&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;98.20&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;94.30&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;78.40&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;88.30&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;74.70&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;43.13&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;LTP 4.0 (Tiny)&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;96.80&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;97.10&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;91.60&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;70.90&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;83.80&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;70.10&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;53.22&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h3 id=&quot;cite&quot;&gt;Cite&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;latex&quot; style=&quot;background-color:#fafafa;color:#383a42;&quot; class=&quot;language-latex &quot;&gt;&lt;code class=&quot;language-latex&quot; data-lang=&quot;latex&quot;&gt;&lt;span&gt;@article{che2020n,
+&lt;&#x2F;span&gt;&lt;span&gt;  title={N-LTP: A Open-source Neural Chinese Language Technology Platform with Pretrained Models},
+&lt;&#x2F;span&gt;&lt;span&gt;  author={Che, Wanxiang and Feng, Yunlong and Qin, Libo and Liu, Ting},
+&lt;&#x2F;span&gt;&lt;span&gt;  journal={arXiv preprint arXiv:2009.11616},
+&lt;&#x2F;span&gt;&lt;span&gt;  year={2020}
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Slitheen</title>
+        <published>2020-07-06T14:13:14.674+00:00</published>
+        <updated>2020-07-06T14:13:14.674+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://onyiny-ang.github.io/opensource/slitheen/"/>
+        <id>https://onyiny-ang.github.io/opensource/slitheen/</id>
+        
+        <content type="html" xml:base="https://onyiny-ang.github.io/opensource/slitheen/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Spawning Salmon with Kubernetes or Kubernetes, the next research platform?</title>
+        <published>2019-08-27T00:00:00+00:00</published>
+        <updated>2019-08-27T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://onyiny-ang.github.io/talks/talk-6/"/>
+        <id>https://onyiny-ang.github.io/talks/talk-6/</id>
+        
+        <content type="html" xml:base="https://onyiny-ang.github.io/talks/talk-6/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Redhat Developer Vscode Tekton</title>
+        <published>2019-07-06T14:13:14.674+00:00</published>
+        <updated>2019-07-06T14:13:14.674+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://onyiny-ang.github.io/opensource/vscode-tekton/"/>
+        <id>https://onyiny-ang.github.io/opensource/vscode-tekton/</id>
+        
+        <content type="html" xml:base="https://onyiny-ang.github.io/opensource/vscode-tekton/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Kubernetes the New Research Platform</title>
+        <published>2019-05-22T00:00:00+00:00</published>
+        <updated>2019-05-22T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://onyiny-ang.github.io/talks/talk-5/"/>
+        <id>https://onyiny-ang.github.io/talks/talk-5/</id>
+        
+        <content type="html" xml:base="https://onyiny-ang.github.io/talks/talk-5/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>SIG Multicluster and the Path to Federation</title>
+        <published>2019-03-06T00:00:00+00:00</published>
+        <updated>2019-03-06T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://onyiny-ang.github.io/talks/talk-4/"/>
+        <id>https://onyiny-ang.github.io/talks/talk-4/</id>
+        
+        <content type="html" xml:base="https://onyiny-ang.github.io/talks/talk-4/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Git Your Own Adventure</title>
+        <published>2019-02-14T14:13:14.674+00:00</published>
+        <updated>2019-02-14T14:13:14.674+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://onyiny-ang.github.io/opensource/git/"/>
+        <id>https://onyiny-ang.github.io/opensource/git/</id>
+        
+        <content type="html" xml:base="https://onyiny-ang.github.io/opensource/git/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Exploring Application Portability Across Clouds using Kubernetes</title>
+        <published>2018-05-10T00:00:00+00:00</published>
+        <updated>2018-05-10T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://onyiny-ang.github.io/talks/talk-3/"/>
+        <id>https://onyiny-ang.github.io/talks/talk-3/</id>
+        
+        <content type="html" xml:base="https://onyiny-ang.github.io/talks/talk-3/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Federation v2 (MultiCluster Kubernetes)</title>
+        <published>2018-05-03T00:00:00+00:00</published>
+        <updated>2018-05-03T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://onyiny-ang.github.io/talks/talk-2/"/>
+        <id>https://onyiny-ang.github.io/talks/talk-2/</id>
+        
+        <content type="html" xml:base="https://onyiny-ang.github.io/talks/talk-2/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Evaluation of the Salmon Algorithm</title>
+        <published>2017-08-24T11:00:06.142+00:00</published>
+        <updated>2017-08-24T11:00:06.142+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://onyiny-ang.github.io/publications/evaluation-of-the-salmon-algorithm/"/>
+        <id>https://onyiny-ang.github.io/publications/evaluation-of-the-salmon-algorithm/</id>
+        
+        <content type="html" xml:base="https://onyiny-ang.github.io/publications/evaluation-of-the-salmon-algorithm/">&lt;p&gt;The salmon algorithm is a metaheuristic inspired by the behaviour of salmon swimming upstream to spawn. It has previously shown success when used for the creation of sets of robust tags for DNA sequencing applications, as well as for the travelling salesman problem. In this paper the salmon algorithm is evaluated for the construction of optimal covering and error-correcting codes, which are related to sequencing applications, as well as for the DNA fragment assembly problem, which is related to the travelling salesman problem. Parameter tuning for the salmon algorithm is extensively studied, as well as the use of automated parameter tuning.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Evaluation of the Salmon Algorithm</title>
+        <published>2017-08-24T00:00:00+00:00</published>
+        <updated>2017-08-24T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://onyiny-ang.github.io/talks/talk-1/"/>
+        <id>https://onyiny-ang.github.io/talks/talk-1/</id>
+        
+        <content type="html" xml:base="https://onyiny-ang.github.io/talks/talk-1/"></content>
+        
+    </entry>
+</feed>
